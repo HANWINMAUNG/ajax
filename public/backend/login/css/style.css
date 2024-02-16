@@ -1,0 +1,226 @@
+body{
+    background: #EDEDF5;
+    font-size: 15px;
+    font-family: 'Opne Sans' , sans-serif;
+}
+a{
+   text-decoration: none;
+   color: #333;
+}
+a:hover{
+   text-decoration: none;
+   color: #ffb800;
+}
+.card{
+   border-radius: 10px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.09);
+   border: none;
+}
+.btn{
+    padding:10px 25px;
+}
+.btn-theme{
+    background-color: #94C507;
+    color:#fff;
+ }
+ .btn-theme:hover{
+    background-color: #94C507;
+    color:#fff;
+ }
+
+ .invalid-feedback{
+   display: block;
+ }
+/*-------------Authform--------------*/
+.auth-form{
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    border: none;
+    border-radius: 10px;
+}
+.auth-form a{
+   text-decoration: none;
+   color:#333;
+}
+.auth-form a:hover{
+    color:#5842E3;
+ }
+/*---------header meun--------*/
+ .header-meun{
+    background: #fff;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+ }
+ .header-meun a{
+    text-decoration: none;
+    color:#333;
+    display: block;
+ }
+ .header-meun .text-header{
+    text-decoration: none;
+    color:#333;
+    font-size:20px;
+    padding-top:10px;
+ }
+ .hedader-meun a:hover{
+    color:#5842E3;
+    transition: .3s;
+ }
+ /*---------bottom meun--------*/
+ .bottom-meun{
+    background: #fff;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+ }
+ .bottom-meun a{
+    text-decoration: none;
+    color:#333;
+    display: block;
+ }
+ .bottom-meun a:hover{
+    color:#5842E3;
+    transition: .3s;
+ }
+/*-------sweet alert-------*/
+ .swal2-popup{
+   border-radius: 10px !important;
+ }
+ .swal2-title{
+   font-size: 18px !important;
+ }
+ .swal2-styled{
+   padding: 10px 25px !important;
+   border-radius: 10px !important;
+ }
+ .swal2-styled .swal2-confirm{
+   background-color: #5842E3 !important;
+ }
+ /*---------Main content--------*/
+ .content{
+    margin: 75px 0px;
+ }
+/*--------Account------*/
+.account{
+
+}
+ .profile{
+   text-align: center;
+}
+ .profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.account .card-body{
+    padding-right: 0px;
+}
+.account .card-body span{
+    margin-right: 15px;
+}
+/*-------update password------*/
+.update-password img{
+   width: 50%;
+  height: auto;
+}
+/*--------scan tab---------*/
+.scan-tab{
+   width: 60px;
+   height: 60px;
+   background: #EDEDF5;
+   border-radius: 100%;
+   position: fixed;
+   bottom: 40px;
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+}
+.scan-tab .inside{
+   width: 52px;
+   height: 52px;
+   background: #fff;
+   display: flex;
+   border-radius: 100%;
+   justify-content: center;
+   align-items: center;
+   animation: glow 5s infinite;
+}
+.scan-tab .inside svg{
+   margin:0;
+}
+@keyframes glow{
+   0%{
+      box-shadow: 0 0 -10px #5842E3;
+   }
+   40%{
+      box-shadow: 0 0 15px #5842E3;
+   }
+   60%{
+      box-shadow: 0 0 15px #5842E3;
+   }
+   100%{
+      box-shadow: 0 0 -10px #5842E3;
+   }
+}
+/*-------wallet------*/
+.wallet{
+
+}
+.wallet .wallet-card{
+   background: #5842E3;
+   color: #fff;
+}
+.wallet .wallet-card span{
+   text-transform: uppercase;
+   font-size: 12px;
+   display: inline-block;
+   margin-bottom: 5px;
+   color: #EDEDF5;
+}
+.wallet .wallet-card h4{
+   font-size: 22px;
+   font-weight: 900;
+}
+.wallet .wallet-card h5{
+   font-size: 18px;
+   font-weight: 900;
+}
+.wallet .wallet-card p{
+   font-size: 16px;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+/*---------Home----------*/
+.home .shortcut svg{
+   margin-right: 4px;
+}
+.home .function-box .card-body{
+   padding-right: 0px;
+}
+.home .function-box svg{
+   margin-right: 8px;
+}
+/*------scan and pay-----*/
+.scan-and-pay img{
+   width: 50%;
+  height: auto;
+}
+/*------notification detail------*/
+.notification-detail img{
+   width: 50%;
+  height: auto;
+}
+.unread-noti-count{
+   position: absolute;
+   right:0px;
+   padding:3px;
+}
